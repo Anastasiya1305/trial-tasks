@@ -1,0 +1,201 @@
+@font-face {
+    font-family: kumbubuntu;
+    src: url("fonts/KumbhSans-VariableFont_wght.ttf");
+    font-weight: normal;
+}
+
+
+body {
+background-color: black;
+}
+
+.blocke1 {
+
+    font-family: 'Kumbh Sans', 'sans-serif';
+    position:relative;
+    background-color: rgba(8, 105, 47, 0.674);
+    height: 120px;
+    width: 500px;
+    left:500px;
+    
+}
+
+.circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 30px ;
+    
+}
+.contentgreen1{
+    position: absolute;
+    left: 150px;
+    color: white;
+    font-size: 18px;
+    width: 500px;
+    height: 120px;
+    
+}
+/* в бургер меню не удается скруглить верхнюю и  нижнюю полосы
+ с помощью border-radius, в том числе и сразными 
+ вариантами значений и свойств*/
+.burger {
+
+   position: absolute;
+    width: 50px;
+    height: 25px;
+    margin: 387px;
+    border-top: 5px solid #fff;
+    border-bottom:5px solid #fff;
+    border-radius: 10%;
+    left: -10px;
+    top: -350px;
+}
+
+    
+.burger:before{
+
+content: "";
+position: absolute;
+top: 10px;
+left: 0px;
+width: 100%;
+border-top: 5px solid #fff;
+border-radius: 10%;
+
+}
+.foto {
+
+position: absolute;
+width: 500px;
+height: 250px;
+left: 254px;
+
+
+}
+
+.btn {
+position: absolute;
+width: 200px;
+background-color: burlywood;
+color:#fff;
+font-size: 12px;
+padding: 12px;
+border:none;
+cursor: pointer;
+top: 320px;
+left: 640px;
+}
+
+
+.foto .btn {
+position: absolute;
+
+}
+.whiteblock {
+font-family: 'Kumbh Sans', 'sans-serif';
+position: absolute;
+background-color: whitesmoke;
+color:black;
+font-size: 12px;
+width: 500px;
+height: 430px;
+left: 508px;
+top: 379px;
+}
+
+.women {
+    clip-path: circle(50px);
+}
+.whiteblock .women {
+
+position: absolute;
+top: -1px;
+left: 20px;
+padding: 10px 10px;
+width: 120px;
+}
+.content {
+   
+    position: absolute;
+    font-size: 14px;
+    width: 200px;
+    height: 400px;
+    top: 20px;
+    left: 220px;
+}
+.content2 {
+position: absolute;
+font-size: 14px;
+top: 120px;
+left: 30px;
+
+}
+
+h3{
+position: absolute;
+font-size: 14;
+top: 230px;
+left: 30px;
+} 
+
+ul {
+
+position: absolute;
+font-size: 14;
+top: 260px;
+
+}
+li{
+    list-style-type: none;
+    line-height: 0;
+}
+li:before{
+    content: "-";
+}
+.btn2 {
+    position: absolute;
+    width: 200px;
+    background-color: burlywood;
+    font-size: 12px;
+    padding: 12px;
+    border:none;
+    cursor: pointer;
+    color:#fff;
+    margin: 140px;
+    top: 230px;
+
+}
+
+.greyblock{
+
+    position: absolute; 
+    background-color: rgba(185, 179, 179, 0.389);
+    color: white;
+    font-size: 18px;
+    width: 500px;
+    height: 100px;
+    top: 430px;
+
+}
+.circle2{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 450px; 
+    left: 50px;      
+}
+ .footercontent {
+
+    position: absolute;
+    font-size: 12px;
+    color:aliceblue;
+    top: 450px;
+    left: 240px;
+   line-height: 30px;
+   text-align: right;
+ }
